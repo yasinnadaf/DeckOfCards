@@ -6,5 +6,6 @@ public class MainClass {
         DeckOfCards deckOfCards = new DeckOfCards();
         deckOfCards.initializeCards();
         deckOfCards.addPlayers();
+        deckOfCards.changePlayerOrder();
     }
 }
